@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>JS Objects</title>
+    </head>
+    <body>
+        <p id="1"></p>
+        <script>
+                const student={name:"Kunal",id:"0342",marks:"90",all: function() 
+                {
+                return + "Name of student=" + this.name +"<br>"+ "ID of student= " + this.id + "<br>" + "Marks of student = " + this.marks;
+                }
+        };
+                document.getElementById('1').innerHTML=student.all;
+        </script>
+    </body>
+</html>
